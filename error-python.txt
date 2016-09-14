@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:/Users/cjha1796/Desktop/while-true.py", line 3, in <module>
+    num=input()
+  File "<string>", line 1, in <module>
+NameError: name 'o' is not defined
