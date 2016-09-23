@@ -1,0 +1,10 @@
+"""script that checks whether a word is a palindrome"""
+
+print("Enter a string:")
+var=input()
+var=str(var)
+a=var[::-1]
+if var==a:
+    print("It is a palindrome!")
+else:
+    print("Just a word!")
