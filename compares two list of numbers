@@ -1,0 +1,6 @@
+"""compares two list of numbers and creates a new list with unique set of numbers"""
+def comp(list1,list2):
+    a=list(set(list1+list2))
+    print(a)
+    return
+comp([2,4,6,8],[4,8,10,12])
