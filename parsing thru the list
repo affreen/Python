@@ -1,0 +1,7 @@
+"""take a list of numbers and print out those that are less than 5"""
+def funct_divide(list1):
+    for var in list1:
+        if (var>5):
+            print(var)
+    return
+funct_divide([37,86,45,1,2,5,9,10,15])
