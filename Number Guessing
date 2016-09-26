@@ -1,0 +1,18 @@
+"""Generate a random number between 1 and 9 (including 1 and 9).
+Ask the user to guess the number, then tell them whether they guessed
+too low, too high, or exactly right.
+(Hint: remember to use the user input lessons from the very first exercise)"""
+
+import random
+print("Enter a number between 1 and 9:")
+var=input()
+var=int(var)
+a=random.randint(1,10)
+if (var==a):
+    print("You entered exactly the same number that got auto generated!")
+elif (var < a ):
+    print("You entered a low number comapred the random one")
+elif (var>a):
+    print("You entered a high number comapred the random one")
+else:
+    print("Your guess is invalid")
