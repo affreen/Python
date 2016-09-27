@@ -1,0 +1,19 @@
+"""Define a function max_of_three()
+that takes three numbers as arguments and returns the largest of them."""
+
+
+def funt():
+    print("Enter any three random numbers")
+    int1=input()
+    int1=int(int1)
+    int2=input()
+    int2=int(int2)
+    int3=input()
+    int3=int(int3)
+    a=max(int1,int2,int3)
+    print("Largest out of three is", a)
+    b=min(int1,int2,int3)
+    print("Smallest out of three is", b)
+    return
+funt()
+        
