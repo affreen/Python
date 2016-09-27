@@ -1,0 +1,12 @@
+"""Using random method - generate 3 numbers and print the large and small values"""
+
+import random
+print("Generate 3 random numbers:")
+a=random.randint(1,5)
+b=random.randint(11,20)
+c=random.randint(10,70)
+max_var=max(a,b,c)
+min_var=min(a,b,c)
+print("The three random numbers are", a, b, c)
+print("Higher value number:", max_var)
+print("Lower value number:", min_var)
