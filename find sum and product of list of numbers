@@ -1,0 +1,14 @@
+"""Define a function sum() and a function multiply() that
+sums and multiplies (respectively) all the numbers in a
+list of numbers. For example, sum
+([1, 2, 3, 4]) should return 10, and multiply([1, 2, 3, 4]) should return 24."""
+
+def funct_sum(mylist):
+    a=sum(mylist)
+    print("Sum of the numbers is ", a)
+    product =1
+    for num in mylist:
+        product *= num
+        print("Product of the numbers is ", product)
+    return
+funct_sum([7,12,16,2,5])
