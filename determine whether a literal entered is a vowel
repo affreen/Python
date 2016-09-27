@@ -1,0 +1,14 @@
+"""Write a function that takes a character
+(i.e. a string of length 1) and returns True if it is a vowel, False otherwise."""
+
+print("Enter a letter:")
+var=input()
+var=str(var)
+if ord(var)>=97 and ord(var)<=122:
+    print("You have entered a lowercase alphabet!")
+    if var in ['a','e','i','o','u']:
+        print("True")
+    else:
+        print("False")
+else:
+    print("Invalid input!")
